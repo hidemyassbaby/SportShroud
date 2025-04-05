@@ -1,1 +1,53 @@
 
+{
+  "streams": [
+    {
+      "title": "Super Sport Rugby 1",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/18178"
+    },
+    {
+      "title": "Super Sport Rugby 2",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/26953"
+    },
+    {
+      "title": "Sky Sport 1 NZ - 1",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/84757"
+    },
+    {
+      "title": "Sky Sport 1 NZ - 2",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/249880"
+    },
+    {
+      "title": "Sky Sport Action UK - 1",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/66072"
+    },
+    {
+      "title": "Sky Sport Action UK - 2",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/185672"
+    },
+    {
+      "title": "Sky Sport Action UK - 3",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/67096"
+    },
+    {
+      "title": "Sky Sport Action UK - 4",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/67097"
+    },
+    {
+      "title": "Sky Sport Action UK - 5",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/261209"
+    },
+    {
+      "title": "Sky Sport Action UK - 6",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/57635"
+    },
+    {
+      "title": "Sky Sport Action SD",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/67098"
+    },
+    {
+      "title": "Sky Sport Action UK FHD",
+      "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/66372"
+    }
+  ]
+}
