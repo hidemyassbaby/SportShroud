@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Crusaders",
+    "url": "https://yourdomain.com/crusaders.json"
+  },
+  {
+    "name": "Blues",
+    "url": "https://yourdomain.com/blues.json"
+  },
+  {
+    "name": "Golf",
+    "url": "https://yourdomain.com/golf.json"
+  }
+]
