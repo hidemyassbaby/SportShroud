@@ -1,8 +1,8 @@
 [
   {
-    "name": "Crusaders vs Blues (Test Match).",
-    "url": "https://raw.githubusercontent.com/hidemyassbaby/SportShroud/refs/heads/main/Main%20Menu/sportsmenus/matches/crusaders_vs_blues_test_match.json",
+    "name": "All Blacks vs Australia",
+    "url": "https://raw.githubusercontent.com/hidemyassbaby/SportShroud/refs/heads/main/Main%20Menu/sportsmenus/matches/all_blacks_vs_australia.json",
     "thumb": "https://i.postimg.cc/5ttqLyqq/image.png",
-    "plot": "This is a test match for SportShroud. Streams should show if the current NZ time is between 5:30 PM and 8:30 PM."
+    "plot": "The All Blacks take on Australia in this exciting Bledisloe Cup showdown under the lights."
   }
 ]
