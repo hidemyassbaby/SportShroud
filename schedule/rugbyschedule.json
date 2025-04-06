@@ -1,9 +1,9 @@
 [
   {
-    "title": "Crusaders vs Blues (Test Match).",
-    "start_time": "2025-04-06T18:00:00",
+    "title": "All Blacks vs Australia",
+    "start_time": "2025-04-06T19:15:00",
     "channels": ["Sky Sport 1 NZ", "Sky Sport Action UK"],
     "thumb": "https://i.postimg.cc/5ttqLyqq/image.png",
-    "plot": "This is a test match for SportShroud. Streams should show if the current NZ time is between 5:30 PM and 8:30 PM."
+    "plot": "The All Blacks take on Australia in this exciting Bledisloe Cup showdown under the lights."
   }
 ]
