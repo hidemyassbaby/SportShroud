@@ -2,8 +2,8 @@ name: Update Rugby Menu
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Run every 5 minutes
-  workflow_dispatch:       # Allow manual trigger from GitHub
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 jobs:
   update:
@@ -18,15 +18,16 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'  # You can also use 3.9 or 3.11
+          python-version: '3.10'
 
       - name: Run rugby automation script
         run: python rugby_automation.py
 
-      - name: Commit & push if changes exist
+      - name: Commit & push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          git pull origin main --rebase
           git add -A
           git diff --cached --quiet || git commit -m "Auto-update rugby menu"
-          git push
+          git push origin main
