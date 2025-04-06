@@ -1,10 +1,10 @@
 [
   {
-    "title": "Test Match - Auto Remove in 5min",
-    "start_time": "2025-04-06T20:15:00",
-    "end_time": "2025-04-06T20:20:00",
+    "title": "Crusaders vs Bang Media",
+    "start_time": "2025-04-06T20:05:00",
+    "end_time": "2025-04-06T20:37:00",
     "channels": ["Sky Sport 1 NZ", "Sky Sport Action UK"],
     "thumb": "https://i.postimg.cc/5ttqLyqq/image.png",
-    "plot": "This test match should appear and be removed within 5 minutes - Bang Media Test"
+    "plot": "A test to see if I expire and disappear like magic"
   }
 ]
