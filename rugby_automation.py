@@ -39,6 +39,7 @@ print(f"🕒 Current NZ time: {now.isoformat()}")
 
 menu = []
 active_slugs = []
+latest_appear_time = None
 
 for match in schedule:
     title = match["title"]
@@ -50,6 +51,9 @@ for match in schedule:
     end = datetime.fromisoformat(match.get("end_time")).replace(tzinfo=ZoneInfo("Pacific/Auckland")) if match.get("end_time") else start + timedelta(hours=2, minutes=30)
     appear = start - timedelta(minutes=30)
     print(f"⏰ Starts at: {start}, Appears at: {appear}, Ends at: {end}")
+
+    if latest_appear_time is None or appear > latest_appear_time:
+        latest_appear_time = appear
 
     if now >= end:
         print(f"🗑️ Match has ended and will be removed: {title}")
@@ -104,11 +108,14 @@ for match in schedule:
     else:
         print(f"⏳ Skipping match: {title} (Not yet visible or already ended)")
 
-if not menu:
-    print("❌ No live games found. Writing fallback message.")
+# Determine if there are no live games and no games appearing in next 30 mins
+if not menu and (latest_appear_time is None or now < latest_appear_time - timedelta(minutes=30)):
+    print("❌ No live or upcoming games within 30 mins. Writing fallback message.")
     menu = [{
         "name": "No live games at the moment",
-        "url": ""
+        "url": "plugin://plugin.video.sportshroud/?mode=notice",
+        "thumb": "https://i.postimg.cc/25Dd81vj/image.png",
+        "plot": "Please check back later for upcoming games."
     }]
 
 with open(RUGBY_MENU_PATH, "w") as f:
