@@ -29,6 +29,9 @@ os.makedirs(MATCHES_FOLDER, exist_ok=True)
 # Load data
 print("🔄 Loading schedule and channels...")
 schedule = fetch_json(SCHEDULE_URL)
+if not isinstance(schedule, list) or not all(isinstance(match, dict) for match in schedule):
+    raise ValueError("Schedule JSON must be a list of dictionaries (matches). Check your schedule file format.")
+
 channels_data = fetch_json(CHANNELS_URL)
 channels = channels_data.get("streams", [])
 now = datetime.now(ZoneInfo("Pacific/Auckland"))
