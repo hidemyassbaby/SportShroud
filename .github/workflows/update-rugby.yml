@@ -1,0 +1,36 @@
+name: Update Rugby Menu
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"  # Run every 5 minutes
+  workflow_dispatch:       # Allow manual trigger from GitHub
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install time zone support
+        run: pip install backports.zoneinfo
+
+      - name: Run rugby automation script
+        run: |
+          python rugby_automation.py
+
+      - name: Commit & push if changes exist
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Auto-update rugby.json and match files"
+          git push
