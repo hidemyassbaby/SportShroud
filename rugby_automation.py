@@ -27,7 +27,8 @@ os.makedirs(MATCHES_FOLDER, exist_ok=True)
 
 # Load data
 schedule = fetch_json(SCHEDULE_URL)
-channels = fetch_json(CHANNELS_URL)
+channels_data = fetch_json(CHANNELS_URL)
+channels = channels_data.get("streams", [])
 now = datetime.now(ZoneInfo("Pacific/Auckland"))
 
 menu = []
@@ -48,8 +49,8 @@ for match in schedule:
 
         for name in match["channels"]:
             name_lower = name.lower()
-            for key, stream in channels.items():
-                if isinstance(stream, dict) and name_lower in stream.get("name", "").lower():
+            for stream in channels:
+                if isinstance(stream, dict) and name_lower in stream.get("title", "").lower():
                     streams.append(stream)
 
         with open(match_path, "w") as mf:
