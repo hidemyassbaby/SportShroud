@@ -51,7 +51,12 @@ for match in schedule:
             name_lower = name.lower()
             for stream in channels:
                 if isinstance(stream, dict) and name_lower in stream.get("title", "").lower():
-                    streams.append(stream)
+                    streams.append({
+                        "name": stream.get("title", "Stream"),
+                        "url": stream.get("url", ""),
+                        "thumb": stream.get("thumb", ""),
+                        "plot": stream.get("plot", "")
+                    })
 
         with open(match_path, "w") as mf:
             json.dump(streams, mf, indent=2)
