@@ -75,23 +75,18 @@ for match in schedule:
         # Convert to fallback stream list
         fallback_streams = []
         for title, group in grouped.items():
-            if len(group) == 1:
-                fallback_streams.append({
-                    "name": group[0]["name"],
-                    "fallback": [group[0]]
-                })
-            else:
-                fallback_streams.append({
-                    "name": title,
-                    "fallback": group
-                })
+            fallback_streams.append({
+                "name": title,
+                "fallback": group
+            })
 
         with open(match_path, "w") as mf:
             json.dump(fallback_streams, mf, indent=2)
             print(f"📁 Wrote streams to {match_path} with {len(fallback_streams)} entries")
 
+        # Include match info from schedule for menu
         menu.append({
-            "name": title,
+            "name": match.get("title", ""),
             "url": f"{GITHUB_RAW_BASE}/{match_path.replace(' ', '%20')}",
             "thumb": match.get("thumb", ""),
             "plot": match.get("plot", "")
