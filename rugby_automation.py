@@ -51,6 +51,13 @@ for match in schedule:
     appear = start - timedelta(minutes=30)
     print(f"⏰ Starts at: {start}, Appears at: {appear}, Ends at: {end}")
 
+    if now >= end:
+        print(f"🗑️ Match has ended and will be removed: {title}")
+        if os.path.exists(match_path):
+            os.remove(match_path)
+            print(f"🗑️ Removed match file: {match_path}")
+        continue
+
     if appear <= now < end:
         print(f"✅ Match is live or upcoming, including in menu: {title}")
         active_slugs.append(slug)
