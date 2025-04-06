@@ -18,19 +18,15 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
-
-      - name: Install time zone support
-        run: pip install backports.zoneinfo
+          python-version: '3.10'  # You can also use 3.9 or 3.11
 
       - name: Run rugby automation script
-        run: |
-          python rugby_automation.py
+        run: python rugby_automation.py
 
       - name: Commit & push if changes exist
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Auto-update rugby.json and match files"
+          git diff --cached --quiet || git commit -m "Auto-update rugby menu"
           git push
