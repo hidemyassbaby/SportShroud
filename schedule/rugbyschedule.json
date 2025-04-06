@@ -1,9 +1,8 @@
-[
-  {
-    "title": "All Blacks vs Australia",
-    "start_time": "2025-04-06T19:15:00",
-    "channels": ["Sky Sport 1 NZ", "Sky Sport Action UK"],
-    "thumb": "https://i.postimg.cc/5ttqLyqq/image.png",
-    "plot": "The All Blacks take on Australia in this exciting Bledisloe Cup showdown under the lights."
-  }
-]
+{
+  "title": "Test Match - Delete Me Soon",
+  "start_time": "2025-04-06T20:05:00",
+  "end_time": "2025-04-06T20:10:00",
+  "channels": ["Sky Sport 1 NZ"],
+  "thumb": "https://i.postimg.cc/5ttqLyqq/image.png",
+  "plot": "This is a test match that should be removed shortly after appearing."
+}

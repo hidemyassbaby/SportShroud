@@ -15,7 +15,7 @@ GITHUB_RAW_BASE = "https://raw.githubusercontent.com/hidemyassbaby/SportShroud/r
 
 # Utility functions
 def fetch_json(url):
-    print(f"📡 Fetching JSON from: {url}")
+    print(f"📱 Fetching JSON from: {url}")
     with urllib.request.urlopen(url) as response:
         return json.load(response)
 
