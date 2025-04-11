@@ -1,10 +1,37 @@
 [
   {
-    "title": "Crusaders vs Bang Media",
-    "start_time": "2025-04-06T20:05:00",
-    "end_time": "2025-04-06T20:37:00",
-    "channels": ["Sky Sport 1 NZ", "Sky Sport Action UK"],
-    "thumb": "https://i.postimg.cc/5ttqLyqq/image.png",
-    "plot": "A test to see if I expire and disappear like magic"
+    "title": "Hurricanes vs Crusaders",
+    "start_time": "2025-04-11T19:05:00+12:00",
+    "channels": ["Sky Sport 1 NZ", "Sky Sports Action UK"],
+    "thumb": "https://example.com/hurricanes_vs_crusaders_thumb.jpg",
+    "plot": "A thrilling encounter between the Hurricanes and Crusaders at Sky Stadium in Wellington. Kick-off: 7:05 PM NZT."
+  },
+  {
+    "title": "Waratahs vs Chiefs",
+    "start_time": "2025-04-11T19:35:00+10:00",
+    "channels": ["Fox Sports", "Sky Sports Arena UK"],
+    "thumb": "https://example.com/waratahs_vs_chiefs_thumb.jpg",
+    "plot": "The Waratahs host the Chiefs at Allianz Stadium in Sydney in what promises to be an exciting match. Kick-off: 7:35 PM NZT."
+  },
+  {
+    "title": "Blues vs Moana Pasifika",
+    "start_time": "2025-04-12T16:35:00+12:00",
+    "channels": ["Sky Sport 1 NZ", "Sky Sports Action UK"],
+    "thumb": "https://example.com/blues_vs_moana_pasifika_thumb.jpg",
+    "plot": "The Blues take on Moana Pasifika at Eden Park in Auckland in a highly anticipated clash. Kick-off: 4:35 PM NZT."
+  },
+  {
+    "title": "Highlanders vs Fijian Drua",
+    "start_time": "2025-04-12T19:05:00+12:00",
+    "channels": ["Sky Sport 1 NZ", "Sky Sports Arena UK"],
+    "thumb": "https://example.com/highlanders_vs_fijian_drua_thumb.jpg",
+    "plot": "An exciting matchup between the Highlanders and Fijian Drua at Forsyth Barr Stadium in Dunedin. Kick-off: 7:05 PM NZT."
+  },
+  {
+    "title": "Reds vs Brumbies",
+    "start_time": "2025-04-12T19:35:00+10:00",
+    "channels": ["Fox Sports", "Sky Sports Action UK"],
+    "thumb": "https://example.com/reds_vs_brumbies_thumb.jpg",
+    "plot": "The Reds face the Brumbies at Suncorp Stadium in Brisbane in a crucial game for both teams. Kick-off: 7:35 PM NZT."
   }
 ]
