@@ -1,8 +1,8 @@
 [
   {
-    "name": "No live games at the moment",
-    "url": "plugin://plugin.video.sportshroud/?mode=notice",
-    "thumb": "https://i.postimg.cc/25Dd81vj/image.png",
-    "plot": "Please check back later for upcoming games."
+    "name": "Hurricanes vs Crusaders",
+    "url": "https://raw.githubusercontent.com/hidemyassbaby/SportShroud/refs/heads/main/Main%20Menu/sportsmenus/matches/hurricanes_vs_crusaders.json",
+    "thumb": "https://example.com/hurricanes_vs_crusaders_thumb.jpg",
+    "plot": "A thrilling encounter between the Hurricanes and Crusaders at Sky Stadium in Wellington. Kick-off: 7:05 PM NZT."
   }
 ]
