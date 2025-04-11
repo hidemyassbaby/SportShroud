@@ -4,5 +4,11 @@
     "url": "https://raw.githubusercontent.com/hidemyassbaby/SportShroud/refs/heads/main/Main%20Menu/sportsmenus/matches/hurricanes_vs_crusaders.json",
     "thumb": "https://example.com/hurricanes_vs_crusaders_thumb.jpg",
     "plot": "A thrilling encounter between the Hurricanes and Crusaders at Sky Stadium in Wellington. Kick-off: 7:05 PM NZT."
+  },
+  {
+    "name": "Waratahs vs Chiefs",
+    "url": "https://raw.githubusercontent.com/hidemyassbaby/SportShroud/refs/heads/main/Main%20Menu/sportsmenus/matches/waratahs_vs_chiefs.json",
+    "thumb": "https://example.com/waratahs_vs_chiefs_thumb.jpg",
+    "plot": "The Waratahs host the Chiefs at Allianz Stadium in Sydney in what promises to be an exciting match. Kick-off: 7:35 PM NZT."
   }
 ]
