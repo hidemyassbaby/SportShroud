@@ -4,5 +4,11 @@
     "url": "https://raw.githubusercontent.com/hidemyassbaby/SportShroud/refs/heads/main/Main%20Menu/sportsmenus/matches/blues_vs_moana_pasifika.json",
     "thumb": "https://example.com/blues_vs_moana_pasifika_thumb.jpg",
     "plot": "The Blues take on Moana Pasifika at Eden Park in Auckland. Kick-off: 4:35 PM NZT."
+  },
+  {
+    "name": "Highlanders vs Fijian Drua",
+    "url": "https://raw.githubusercontent.com/hidemyassbaby/SportShroud/refs/heads/main/Main%20Menu/sportsmenus/matches/highlanders_vs_fijian_drua.json",
+    "thumb": "https://example.com/highlanders_vs_fijian_drua_thumb.jpg",
+    "plot": "An exciting matchup between the Highlanders and Fijian Drua at Forsyth Barr Stadium in Dunedin. Kick-off: 7:05 PM NZT."
   }
 ]

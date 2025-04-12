@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Sky Sport 1 NZ - 1",
+    "fallback": [
+      {
+        "name": "Sky Sport 1 NZ - 1",
+        "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/84757",
+        "thumb": "https://i.postimg.cc/wjXDSJFk/image.png",
+        "plot": "Sky Sport 1 NZ features rugby, league, cricket, and more from New Zealand and around the world."
+      }
+    ]
+  },
+  {
+    "name": "Sky Sport 1 NZ - 2",
+    "fallback": [
+      {
+        "name": "Sky Sport 1 NZ - 2",
+        "url": "https://m3ufilter.media4u.top/m3u-stream/live/media4u/media4u/249880",
+        "thumb": "https://i.postimg.cc/wjXDSJFk/image.png",
+        "plot": "Sky Sport 1 NZ features rugby, league, cricket, and more from New Zealand and around the world."
+      }
+    ]
+  }
+]
