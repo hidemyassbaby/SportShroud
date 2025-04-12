@@ -1,8 +1,8 @@
 [
   {
-    "name": "No live games at the moment",
-    "url": "plugin://plugin.video.sportshroud/?mode=notice",
-    "thumb": "https://i.postimg.cc/25Dd81vj/image.png",
-    "plot": "Please check back later for upcoming games."
+    "name": "Blues vs Moana Pasifika",
+    "url": "https://raw.githubusercontent.com/hidemyassbaby/SportShroud/refs/heads/main/Main%20Menu/sportsmenus/matches/blues_vs_moana_pasifika.json",
+    "thumb": "https://example.com/blues_vs_moana_pasifika_thumb.jpg",
+    "plot": "The Blues take on Moana Pasifika at Eden Park in Auckland. Kick-off: 4:35 PM NZT."
   }
 ]
